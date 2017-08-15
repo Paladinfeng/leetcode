@@ -7,11 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D515CD751F4180800087DE47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515CD741F4180800087DE47 /* main.swift */; };
+		D515CD801F429FBF0087DE47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515CD7F1F429FBF0087DE47 /* main.swift */; };
+		D52270011F332B3D00186730 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52270001F332B3D00186730 /* main.swift */; };
+		D5491F921F31C0A50097CAE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5491F911F31C0A50097CAE3 /* main.swift */; };
 		D56A43691DB0E35D0023935F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A43681DB0E35D0023935F /* main.swift */; };
 		D56A43761DB0E4270023935F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A43751DB0E4270023935F /* main.swift */; };
+		D56D42661F346D8500800FD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D42651F346D8500800FD6 /* main.swift */; };
+		D56D42711F38649900800FD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D42701F38649900800FD6 /* main.swift */; };
+		D59C62851F307F5100F69EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C62841F307F5100F69EE3 /* main.swift */; };
+		D5DB59631F39B00800D2DD96 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB59621F39B00800D2DD96 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D515CD701F4180800087DE47 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D515CD7B1F429FBF0087DE47 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D5226FFC1F332B3D00186730 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D5491F8D1F31C0A50097CAE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D56A43631DB0E35D0023935F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -30,16 +74,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D56D42611F346D8500800FD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D56D426C1F38649800800FD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D59C62801F307F5100F69EE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D5DB595E1F39B00800D2DD96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D515CD721F4180800087DE47 /* Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D515CD741F4180800087DE47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D515CD7D1F429FBF0087DE47 /* Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D515CD7F1F429FBF0087DE47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D5226FFE1F332B3D00186730 /* Reverse Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52270001F332B3D00186730 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D5491F8F1F31C0A50097CAE3 /* Add Two Numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Add Two Numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5491F911F31C0A50097CAE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D56A43651DB0E35D0023935F /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56A43681DB0E35D0023935F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D56A43731DB0E4270023935F /* CountingBits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CountingBits; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56A43751DB0E4270023935F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D56D42631F346D8500800FD6 /* Palindrome Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Palindrome Number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56D42651F346D8500800FD6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D56D426E1F38649800800FD6 /* Roman to Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Roman to Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56D42701F38649900800FD6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D59C62821F307F5100F69EE3 /* Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59C62841F307F5100F69EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D5DB59601F39B00800D2DD96 /* Longest Common Prefix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Longest Common Prefix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DB59621F39B00800D2DD96 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D515CD6F1F4180800087DE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D515CD7A1F429FBF0087DE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5226FFB1F332B3D00186730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5491F8C1F31C0A50097CAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D56A43621DB0E35D0023935F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,14 +178,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D56D42601F346D8500800FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56D426B1F38649800800FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59C627F1F307F5100F69EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DB595D1F39B00800D2DD96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D515CD731F4180800087DE47 /* Valid Parentheses */ = {
+			isa = PBXGroup;
+			children = (
+				D515CD741F4180800087DE47 /* main.swift */,
+			);
+			path = "Valid Parentheses";
+			sourceTree = "<group>";
+		};
+		D515CD7E1F429FBF0087DE47 /* Merge Two Sorted Lists */ = {
+			isa = PBXGroup;
+			children = (
+				D515CD7F1F429FBF0087DE47 /* main.swift */,
+			);
+			path = "Merge Two Sorted Lists";
+			sourceTree = "<group>";
+		};
+		D5226FFF1F332B3D00186730 /* Reverse Integer */ = {
+			isa = PBXGroup;
+			children = (
+				D52270001F332B3D00186730 /* main.swift */,
+			);
+			path = "Reverse Integer";
+			sourceTree = "<group>";
+		};
+		D5491F901F31C0A50097CAE3 /* Add Two Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				D5491F911F31C0A50097CAE3 /* main.swift */,
+			);
+			path = "Add Two Numbers";
+			sourceTree = "<group>";
+		};
 		D56A435C1DB0E35D0023935F = {
 			isa = PBXGroup;
 			children = (
 				D56A43671DB0E35D0023935F /* leetcode */,
 				D56A43741DB0E4270023935F /* CountingBits */,
+				D59C62831F307F5100F69EE3 /* Two Sum */,
+				D5491F901F31C0A50097CAE3 /* Add Two Numbers */,
+				D5226FFF1F332B3D00186730 /* Reverse Integer */,
+				D56D42641F346D8500800FD6 /* Palindrome Number */,
+				D56D426F1F38649900800FD6 /* Roman to Integer */,
+				D5DB59611F39B00800D2DD96 /* Longest Common Prefix */,
+				D515CD731F4180800087DE47 /* Valid Parentheses */,
+				D515CD7E1F429FBF0087DE47 /* Merge Two Sorted Lists */,
 				D56A43661DB0E35D0023935F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +263,14 @@
 			children = (
 				D56A43651DB0E35D0023935F /* leetcode */,
 				D56A43731DB0E4270023935F /* CountingBits */,
+				D59C62821F307F5100F69EE3 /* Two Sum */,
+				D5491F8F1F31C0A50097CAE3 /* Add Two Numbers */,
+				D5226FFE1F332B3D00186730 /* Reverse Integer */,
+				D56D42631F346D8500800FD6 /* Palindrome Number */,
+				D56D426E1F38649800800FD6 /* Roman to Integer */,
+				D5DB59601F39B00800D2DD96 /* Longest Common Prefix */,
+				D515CD721F4180800087DE47 /* Valid Parentheses */,
+				D515CD7D1F429FBF0087DE47 /* Merge Two Sorted Lists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,9 +291,109 @@
 			path = CountingBits;
 			sourceTree = "<group>";
 		};
+		D56D42641F346D8500800FD6 /* Palindrome Number */ = {
+			isa = PBXGroup;
+			children = (
+				D56D42651F346D8500800FD6 /* main.swift */,
+			);
+			path = "Palindrome Number";
+			sourceTree = "<group>";
+		};
+		D56D426F1F38649900800FD6 /* Roman to Integer */ = {
+			isa = PBXGroup;
+			children = (
+				D56D42701F38649900800FD6 /* main.swift */,
+			);
+			path = "Roman to Integer";
+			sourceTree = "<group>";
+		};
+		D59C62831F307F5100F69EE3 /* Two Sum */ = {
+			isa = PBXGroup;
+			children = (
+				D59C62841F307F5100F69EE3 /* main.swift */,
+			);
+			path = "Two Sum";
+			sourceTree = "<group>";
+		};
+		D5DB59611F39B00800D2DD96 /* Longest Common Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				D5DB59621F39B00800D2DD96 /* main.swift */,
+			);
+			path = "Longest Common Prefix";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D515CD711F4180800087DE47 /* Valid Parentheses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D515CD781F4180800087DE47 /* Build configuration list for PBXNativeTarget "Valid Parentheses" */;
+			buildPhases = (
+				D515CD6E1F4180800087DE47 /* Sources */,
+				D515CD6F1F4180800087DE47 /* Frameworks */,
+				D515CD701F4180800087DE47 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Valid Parentheses";
+			productName = "Valid Parentheses";
+			productReference = D515CD721F4180800087DE47 /* Valid Parentheses */;
+			productType = "com.apple.product-type.tool";
+		};
+		D515CD7C1F429FBF0087DE47 /* Merge Two Sorted Lists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D515CD811F429FBF0087DE47 /* Build configuration list for PBXNativeTarget "Merge Two Sorted Lists" */;
+			buildPhases = (
+				D515CD791F429FBF0087DE47 /* Sources */,
+				D515CD7A1F429FBF0087DE47 /* Frameworks */,
+				D515CD7B1F429FBF0087DE47 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Merge Two Sorted Lists";
+			productName = "Merge Two Sorted Lists";
+			productReference = D515CD7D1F429FBF0087DE47 /* Merge Two Sorted Lists */;
+			productType = "com.apple.product-type.tool";
+		};
+		D5226FFD1F332B3D00186730 /* Reverse Integer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52270021F332B3D00186730 /* Build configuration list for PBXNativeTarget "Reverse Integer" */;
+			buildPhases = (
+				D5226FFA1F332B3D00186730 /* Sources */,
+				D5226FFB1F332B3D00186730 /* Frameworks */,
+				D5226FFC1F332B3D00186730 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reverse Integer";
+			productName = "Reverse Integer";
+			productReference = D5226FFE1F332B3D00186730 /* Reverse Integer */;
+			productType = "com.apple.product-type.tool";
+		};
+		D5491F8E1F31C0A50097CAE3 /* Add Two Numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5491F951F31C0A50097CAE3 /* Build configuration list for PBXNativeTarget "Add Two Numbers" */;
+			buildPhases = (
+				D5491F8B1F31C0A50097CAE3 /* Sources */,
+				D5491F8C1F31C0A50097CAE3 /* Frameworks */,
+				D5491F8D1F31C0A50097CAE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Add Two Numbers";
+			productName = "Add Two Numbers";
+			productReference = D5491F8F1F31C0A50097CAE3 /* Add Two Numbers */;
+			productType = "com.apple.product-type.tool";
+		};
 		D56A43641DB0E35D0023935F /* leetcode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D56A436C1DB0E35D0023935F /* Build configuration list for PBXNativeTarget "leetcode" */;
@@ -128,16 +428,100 @@
 			productReference = D56A43731DB0E4270023935F /* CountingBits */;
 			productType = "com.apple.product-type.tool";
 		};
+		D56D42621F346D8500800FD6 /* Palindrome Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56D42691F346D8500800FD6 /* Build configuration list for PBXNativeTarget "Palindrome Number" */;
+			buildPhases = (
+				D56D425F1F346D8500800FD6 /* Sources */,
+				D56D42601F346D8500800FD6 /* Frameworks */,
+				D56D42611F346D8500800FD6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Palindrome Number";
+			productName = "Palindrome Number";
+			productReference = D56D42631F346D8500800FD6 /* Palindrome Number */;
+			productType = "com.apple.product-type.tool";
+		};
+		D56D426D1F38649800800FD6 /* Roman to Integer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56D42721F38649900800FD6 /* Build configuration list for PBXNativeTarget "Roman to Integer" */;
+			buildPhases = (
+				D56D426A1F38649800800FD6 /* Sources */,
+				D56D426B1F38649800800FD6 /* Frameworks */,
+				D56D426C1F38649800800FD6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roman to Integer";
+			productName = "Roman to Integer";
+			productReference = D56D426E1F38649800800FD6 /* Roman to Integer */;
+			productType = "com.apple.product-type.tool";
+		};
+		D59C62811F307F5100F69EE3 /* Two Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59C62881F307F5100F69EE3 /* Build configuration list for PBXNativeTarget "Two Sum" */;
+			buildPhases = (
+				D59C627E1F307F5100F69EE3 /* Sources */,
+				D59C627F1F307F5100F69EE3 /* Frameworks */,
+				D59C62801F307F5100F69EE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Two Sum";
+			productName = "Two Sum";
+			productReference = D59C62821F307F5100F69EE3 /* Two Sum */;
+			productType = "com.apple.product-type.tool";
+		};
+		D5DB595F1F39B00800D2DD96 /* Longest Common Prefix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DB59641F39B00800D2DD96 /* Build configuration list for PBXNativeTarget "Longest Common Prefix" */;
+			buildPhases = (
+				D5DB595C1F39B00800D2DD96 /* Sources */,
+				D5DB595D1F39B00800D2DD96 /* Frameworks */,
+				D5DB595E1F39B00800D2DD96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Longest Common Prefix";
+			productName = "Longest Common Prefix";
+			productReference = D5DB59601F39B00800D2DD96 /* Longest Common Prefix */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D56A435D1DB0E35D0023935F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = paladinfeng;
 				TargetAttributes = {
+					D515CD711F4180800087DE47 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SJ492NNCM7;
+					};
+					D515CD7C1F429FBF0087DE47 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SJ492NNCM7;
+					};
+					D5226FFD1F332B3D00186730 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SJ492NNCM7;
+					};
+					D5491F8E1F31C0A50097CAE3 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SJ492NNCM7;
+					};
 					D56A43641DB0E35D0023935F = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = SJ492NNCM7;
@@ -147,6 +531,22 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = SJ492NNCM7;
 						ProvisioningStyle = Automatic;
+					};
+					D56D42621F346D8500800FD6 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SJ492NNCM7;
+					};
+					D56D426D1F38649800800FD6 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SJ492NNCM7;
+					};
+					D59C62811F307F5100F69EE3 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SJ492NNCM7;
+					};
+					D5DB595F1F39B00800D2DD96 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SJ492NNCM7;
 					};
 				};
 			};
@@ -163,12 +563,52 @@
 			projectRoot = "";
 			targets = (
 				D56A43641DB0E35D0023935F /* leetcode */,
+				D59C62811F307F5100F69EE3 /* Two Sum */,
 				D56A43721DB0E4270023935F /* CountingBits */,
+				D5491F8E1F31C0A50097CAE3 /* Add Two Numbers */,
+				D5226FFD1F332B3D00186730 /* Reverse Integer */,
+				D56D42621F346D8500800FD6 /* Palindrome Number */,
+				D56D426D1F38649800800FD6 /* Roman to Integer */,
+				D5DB595F1F39B00800D2DD96 /* Longest Common Prefix */,
+				D515CD711F4180800087DE47 /* Valid Parentheses */,
+				D515CD7C1F429FBF0087DE47 /* Merge Two Sorted Lists */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D515CD6E1F4180800087DE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D515CD751F4180800087DE47 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D515CD791F429FBF0087DE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D515CD801F429FBF0087DE47 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5226FFA1F332B3D00186730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52270011F332B3D00186730 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5491F8B1F31C0A50097CAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5491F921F31C0A50097CAE3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D56A43611DB0E35D0023935F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,9 +625,209 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D56D425F1F346D8500800FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56D42661F346D8500800FD6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56D426A1F38649800800FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56D42711F38649900800FD6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59C627E1F307F5100F69EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59C62851F307F5100F69EE3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DB595C1F39B00800D2DD96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DB59631F39B00800D2DD96 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D515CD761F4180800087DE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D515CD771F4180800087DE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D515CD821F429FBF0087DE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D515CD831F429FBF0087DE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D52270031F332B3D00186730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D52270041F332B3D00186730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D5491F931F31C0A50097CAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D5491F941F31C0A50097CAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		D56A436A1DB0E35D0023935F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -312,9 +952,205 @@
 			};
 			name = Release;
 		};
+		D56D42671F346D8500800FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D56D42681F346D8500800FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D56D42731F38649900800FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D56D42741F38649900800FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D59C62861F307F5100F69EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D59C62871F307F5100F69EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D5DB59651F39B00800D2DD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D5DB59661F39B00800D2DD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D515CD781F4180800087DE47 /* Build configuration list for PBXNativeTarget "Valid Parentheses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D515CD761F4180800087DE47 /* Debug */,
+				D515CD771F4180800087DE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D515CD811F429FBF0087DE47 /* Build configuration list for PBXNativeTarget "Merge Two Sorted Lists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D515CD821F429FBF0087DE47 /* Debug */,
+				D515CD831F429FBF0087DE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52270021F332B3D00186730 /* Build configuration list for PBXNativeTarget "Reverse Integer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52270031F332B3D00186730 /* Debug */,
+				D52270041F332B3D00186730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5491F951F31C0A50097CAE3 /* Build configuration list for PBXNativeTarget "Add Two Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5491F931F31C0A50097CAE3 /* Debug */,
+				D5491F941F31C0A50097CAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D56A43601DB0E35D0023935F /* Build configuration list for PBXProject "leetcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -331,6 +1167,7 @@
 				D56A436E1DB0E35D0023935F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D56A43771DB0E4270023935F /* Build configuration list for PBXNativeTarget "CountingBits" */ = {
 			isa = XCConfigurationList;
@@ -339,6 +1176,43 @@
 				D56A43791DB0E4270023935F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56D42691F346D8500800FD6 /* Build configuration list for PBXNativeTarget "Palindrome Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56D42671F346D8500800FD6 /* Debug */,
+				D56D42681F346D8500800FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56D42721F38649900800FD6 /* Build configuration list for PBXNativeTarget "Roman to Integer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56D42731F38649900800FD6 /* Debug */,
+				D56D42741F38649900800FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59C62881F307F5100F69EE3 /* Build configuration list for PBXNativeTarget "Two Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59C62861F307F5100F69EE3 /* Debug */,
+				D59C62871F307F5100F69EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DB59641F39B00800D2DD96 /* Build configuration list for PBXNativeTarget "Longest Common Prefix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DB59651F39B00800D2DD96 /* Debug */,
+				D5DB59661F39B00800D2DD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
