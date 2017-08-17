@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5007F9C1F458DF200A20E90 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5007F9B1F458DF200A20E90 /* main.swift */; };
 		D515CD751F4180800087DE47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515CD741F4180800087DE47 /* main.swift */; };
 		D515CD801F429FBF0087DE47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515CD7F1F429FBF0087DE47 /* main.swift */; };
 		D52270011F332B3D00186730 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52270001F332B3D00186730 /* main.swift */; };
@@ -21,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D5007F971F458DF200A20E90 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D515CD701F4180800087DE47 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +133,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D5007F991F458DF200A20E90 /* Remove Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Remove Element"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5007F9B1F458DF200A20E90 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D515CD721F4180800087DE47 /* Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D515CD741F4180800087DE47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D515CD7D1F429FBF0087DE47 /* Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +160,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D5007F961F458DF200A20E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D515CD6F1F4180800087DE47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +247,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5007F9A1F458DF200A20E90 /* Remove Element */ = {
+			isa = PBXGroup;
+			children = (
+				D5007F9B1F458DF200A20E90 /* main.swift */,
+			);
+			path = "Remove Element";
+			sourceTree = "<group>";
+		};
 		D515CD731F4180800087DE47 /* Valid Parentheses */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +301,7 @@
 				D515CD731F4180800087DE47 /* Valid Parentheses */,
 				D515CD7E1F429FBF0087DE47 /* Merge Two Sorted Lists */,
 				D587F8481F441E94008C3D80 /* Remove Duplicates from Sorted Array */,
+				D5007F9A1F458DF200A20E90 /* Remove Element */,
 				D56A43661DB0E35D0023935F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -292,6 +320,7 @@
 				D515CD721F4180800087DE47 /* Valid Parentheses */,
 				D515CD7D1F429FBF0087DE47 /* Merge Two Sorted Lists */,
 				D587F8471F441E94008C3D80 /* Remove Duplicates from Sorted Array */,
+				D5007F991F458DF200A20E90 /* Remove Element */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -355,6 +384,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D5007F981F458DF200A20E90 /* Remove Element */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5007F9D1F458DF200A20E90 /* Build configuration list for PBXNativeTarget "Remove Element" */;
+			buildPhases = (
+				D5007F951F458DF200A20E90 /* Sources */,
+				D5007F961F458DF200A20E90 /* Frameworks */,
+				D5007F971F458DF200A20E90 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remove Element";
+			productName = "Remove Element";
+			productReference = D5007F991F458DF200A20E90 /* Remove Element */;
+			productType = "com.apple.product-type.tool";
+		};
 		D515CD711F4180800087DE47 /* Valid Parentheses */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D515CD781F4180800087DE47 /* Build configuration list for PBXNativeTarget "Valid Parentheses" */;
@@ -552,6 +598,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = paladinfeng;
 				TargetAttributes = {
+					D5007F981F458DF200A20E90 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = SJ492NNCM7;
+					};
 					D515CD711F4180800087DE47 = {
 						CreatedOnToolsVersion = 9.0;
 						DevelopmentTeam = SJ492NNCM7;
@@ -623,11 +673,20 @@
 				D515CD711F4180800087DE47 /* Valid Parentheses */,
 				D515CD7C1F429FBF0087DE47 /* Merge Two Sorted Lists */,
 				D587F8461F441E94008C3D80 /* Remove Duplicates from Sorted Array */,
+				D5007F981F458DF200A20E90 /* Remove Element */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D5007F951F458DF200A20E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5007F9C1F458DF200A20E90 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D515CD6E1F4180800087DE47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -719,6 +778,50 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D5007F9E1F458DF200A20E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D5007F9F1F458DF200A20E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		D515CD761F4180800087DE47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1218,6 +1321,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D5007F9D1F458DF200A20E90 /* Build configuration list for PBXNativeTarget "Remove Element" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5007F9E1F458DF200A20E90 /* Debug */,
+				D5007F9F1F458DF200A20E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D515CD781F4180800087DE47 /* Build configuration list for PBXNativeTarget "Valid Parentheses" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
