@@ -10,6 +10,7 @@ import Foundation
 
 //"mississippi"
 //"issip"
+//待优化
 
 class Solution {
     func strStr(_ haystack: String, _ needle: String) -> Int {
