@@ -11,6 +11,7 @@
 		D515CD751F4180800087DE47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515CD741F4180800087DE47 /* main.swift */; };
 		D515CD801F429FBF0087DE47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515CD7F1F429FBF0087DE47 /* main.swift */; };
 		D52270011F332B3D00186730 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52270001F332B3D00186730 /* main.swift */; };
+		D53824F920452C36002327F8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53824F820452C36002327F8 /* main.swift */; };
 		D5491F921F31C0A50097CAE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5491F911F31C0A50097CAE3 /* main.swift */; };
 		D55061A02021C60900FDCEA2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D550619F2021C60900FDCEA2 /* main.swift */; };
 		D55DAE9A1F4AB6BA004AAE4A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55DAE991F4AB6BA004AAE4A /* main.swift */; };
@@ -62,6 +63,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		D5226FFC1F332B3D00186730 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D53824F420452C36002327F8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -261,6 +271,8 @@
 		D515CD7F1F429FBF0087DE47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D5226FFE1F332B3D00186730 /* Reverse Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Reverse Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52270001F332B3D00186730 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D53824F620452C36002327F8 /* Best Time to Buy and Sell Stock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Best Time to Buy and Sell Stock"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53824F820452C36002327F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D5491F8F1F31C0A50097CAE3 /* Add Two Numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Add Two Numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5491F911F31C0A50097CAE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D550619D2021C60900FDCEA2 /* Pascal's Triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pascal's Triangle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -326,6 +338,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D5226FFB1F332B3D00186730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53824F320452C36002327F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -507,6 +526,14 @@
 			path = "Reverse Integer";
 			sourceTree = "<group>";
 		};
+		D53824F720452C36002327F8 /* Best Time to Buy and Sell Stock */ = {
+			isa = PBXGroup;
+			children = (
+				D53824F820452C36002327F8 /* main.swift */,
+			);
+			path = "Best Time to Buy and Sell Stock";
+			sourceTree = "<group>";
+		};
 		D5491F901F31C0A50097CAE3 /* Add Two Numbers */ = {
 			isa = PBXGroup;
 			children = (
@@ -566,6 +593,7 @@
 				D59EA1791FB402E500052F2F /* Merge Sorted Array */,
 				D550619E2021C60900FDCEA2 /* Pascal's Triangle */,
 				D59226F42043B90D00DAA1E7 /* Pascal's Triangle II */,
+				D53824F720452C36002327F8 /* Best Time to Buy and Sell Stock */,
 				D56A43661DB0E35D0023935F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -597,6 +625,7 @@
 				D59EA1781FB402E500052F2F /* Merge Sorted Array */,
 				D550619D2021C60900FDCEA2 /* Pascal's Triangle */,
 				D59226F32043B90D00DAA1E7 /* Pascal's Triangle II */,
+				D53824F620452C36002327F8 /* Best Time to Buy and Sell Stock */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -798,6 +827,23 @@
 			name = "Reverse Integer";
 			productName = "Reverse Integer";
 			productReference = D5226FFE1F332B3D00186730 /* Reverse Integer */;
+			productType = "com.apple.product-type.tool";
+		};
+		D53824F520452C36002327F8 /* Best Time to Buy and Sell Stock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53824FC20452C36002327F8 /* Build configuration list for PBXNativeTarget "Best Time to Buy and Sell Stock" */;
+			buildPhases = (
+				D53824F220452C36002327F8 /* Sources */,
+				D53824F320452C36002327F8 /* Frameworks */,
+				D53824F420452C36002327F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Best Time to Buy and Sell Stock";
+			productName = "Best Time to Buy and Sell Stock";
+			productReference = D53824F620452C36002327F8 /* Best Time to Buy and Sell Stock */;
 			productType = "com.apple.product-type.tool";
 		};
 		D5491F8E1F31C0A50097CAE3 /* Add Two Numbers */ = {
@@ -1166,6 +1212,11 @@
 						CreatedOnToolsVersion = 9.0;
 						DevelopmentTeam = SJ492NNCM7;
 					};
+					D53824F520452C36002327F8 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = SJ492NNCM7;
+						ProvisioningStyle = Automatic;
+					};
 					D5491F8E1F31C0A50097CAE3 = {
 						CreatedOnToolsVersion = 9.0;
 						DevelopmentTeam = SJ492NNCM7;
@@ -1296,6 +1347,7 @@
 				D59EA1771FB402E500052F2F /* Merge Sorted Array */,
 				D550619C2021C60900FDCEA2 /* Pascal's Triangle */,
 				D59226F22043B90D00DAA1E7 /* Pascal's Triangle II */,
+				D53824F520452C36002327F8 /* Best Time to Buy and Sell Stock */,
 			);
 		};
 /* End PBXProject section */
@@ -1330,6 +1382,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D52270011F332B3D00186730 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53824F220452C36002327F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53824F920452C36002327F8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1662,6 +1722,54 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = SJ492NNCM7;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D53824FA20452C36002327F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D53824FB20452C36002327F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ492NNCM7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
@@ -2637,6 +2745,15 @@
 			buildConfigurations = (
 				D52270031F332B3D00186730 /* Debug */,
 				D52270041F332B3D00186730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53824FC20452C36002327F8 /* Build configuration list for PBXNativeTarget "Best Time to Buy and Sell Stock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53824FA20452C36002327F8 /* Debug */,
+				D53824FB20452C36002327F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
